@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>f4ad757e-026c-4414-9404-d8612a291b07</ProjectGuid>
+    <ProjectTypeGuids>{AEA4388D-92FD-4955-9373-AB0A7A76B343}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Pilot.TelerikSitefinity</RootNamespace>
+    <AssemblyName>Pilot.TelerikSitefinity</AssemblyName>
+    <Name>Pilot.TelerikSitefinity</Name>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Template1\" />
+    <Folder Include="Template1\App_Master\" />
+    <Folder Include="Template1\App_Themes\" />
+    <Folder Include="Template1\App_Themes\Theme1\" />
+    <Folder Include="Template1\App_Themes\Theme1\Global\" />
+    <Folder Include="Template1\App_Themes\Theme1\Global\Global\" />
+    <Folder Include="Template1\App_Themes\Theme1\Images\" />
+    <Folder Include="Template1\App_Themes\Theme1\Images\Images\" />
+    <Folder Include="Template1\App_Themes\Theme1\Styles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Template1\App_Master\Template1.master">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Template1\App_Themes\Theme1\Global\cssLoadOrder.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Template1\App_Themes\Theme1\Global\Layout.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Template1\App_Themes\Theme1\Global\Reset.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Template1\App_Themes\Theme1\Images\blank.gif">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Template1\App_Themes\Theme1\Images\classic-loader.gif">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Template1\App_Themes\Theme1\Images\classic-map.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Template1\App_Themes\Theme1\Images\fancybox-x.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Template1\App_Themes\Theme1\Images\fancybox-y.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Template1\App_Themes\Theme1\Images\fancybox.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Template1\App_Themes\Theme1\Images\fancy_title_over.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Template1\App_Themes\Theme1\Images\sfArrows.gif">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Template1\App_Themes\Theme1\Images\sfBigStatusIcons.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Template1\App_Themes\Theme1\Images\sfEcommerce.gif">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Template1\App_Themes\Theme1\Images\sfFileExtensions.gif">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Template1\App_Themes\Theme1\Images\sfFileExtensionsSml.gif">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Template1\App_Themes\Theme1\Images\sfForums.gif">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Template1\App_Themes\Theme1\Images\sfIcons.gif">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Template1\App_Themes\Theme1\Images\sfLoadingData.gif">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Template1\App_Themes\Theme1\Images\sfPublicContent.gif">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Template1\App_Themes\Theme1\Styles\events.widget.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Template1\App_Themes\Theme1\Styles\fancybox.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Template1\App_Themes\Theme1\Styles\galleria.classic.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Template1\App_Themes\Theme1\Styles\icons.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Template1\App_Themes\Theme1\Styles\nav.widget.css">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

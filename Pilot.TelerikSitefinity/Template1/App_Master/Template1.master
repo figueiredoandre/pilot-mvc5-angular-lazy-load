@@ -1,0 +1,23 @@
+﻿<%@ Master Language="C#" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+</head>
+<body class="main-body">
+    <form id="form1" runat="server">
+        <div id="wrapper">
+            <div id="header">
+                <asp:contentplaceholder id="headerPlaceholder" runat="server"/>
+            </div>
+            <div id="content">
+	            <asp:contentplaceholder id="contentPlaceholder" runat="server"/>
+            </div>
+	        <div id="footer">
+	            <asp:contentplaceholder id="footerPlaceholder" runat="server" />
+	        </div>
+        </div>
+   </form>
+</body>
+</html>
